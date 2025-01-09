@@ -1,0 +1,31 @@
+.colour {
+  background-color: #1ABC9C;
+  position: static;
+  z-index: -1;
+}
+
+.after-before::before {
+  content: "";
+  position: absolute;
+  left: 36%;
+  height: 8px;
+  width: 12%;
+  top: 10px;
+  background-color: aliceblue;
+}
+
+.after-before::after {
+  content: "";
+  position: absolute;
+  right: 36%;
+  height: 8px;
+  width: 12%;
+  top: 10px;
+  background-color: aliceblue;
+}
+
+.row {
+  padding-top: 7em !important;
+}
+
+i {}

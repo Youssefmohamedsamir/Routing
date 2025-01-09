@@ -1,0 +1,21 @@
+.footer {
+  padding: 4em 0px;
+  background-color: #2C3E50;
+}
+
+.end-footer {
+  background-color: #1A252F;
+}
+
+.fa {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  color: black !important;
+}

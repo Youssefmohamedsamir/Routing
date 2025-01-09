@@ -1,0 +1,15 @@
+nav {
+  background-color: #2C3E50 !important;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.navbar-nav {
+  margin-left: 60% !important;
+}
+
+.color-link {
+  background-color: #1ABC9C;
+  color: white;
+  border-radius: 10px;
+}

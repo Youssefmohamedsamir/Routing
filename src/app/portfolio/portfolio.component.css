@@ -1,0 +1,46 @@
+.after-before::before {
+  content: "";
+  position: absolute;
+  left: 36%;
+  height: 5px;
+  width: 12%;
+  top: 10px;
+  background-color: #2C3E50;
+}
+
+.after-before::after {
+  content: "";
+  position: absolute;
+  right: 36%;
+  height: 5px;
+  width: 12%;
+  top: 10px;
+  background-color: #2C3E50;
+}
+
+.title-portfolio {
+  color: #2C3E50 !important;
+}
+
+.text-home {
+  padding: 7em 0px 0px 0px;
+  overflow: hidden;
+  color: #2C3E50 !important;
+}
+
+.distance {
+  margin-top: 10% !important;
+}
+
+.overlayer {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.parent-product:hover .overlayer {
+  background-color: #1abc9cd6;
+}

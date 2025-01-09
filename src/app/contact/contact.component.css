@@ -1,0 +1,25 @@
+.text-home {
+  padding: 7em 0px 0px 0px;
+  overflow: hidden;
+  color: #2C3E50 !important;
+}
+
+.after-before::before {
+  content: "";
+  position: absolute;
+  left: 36%;
+  height: 5px;
+  width: 12%;
+  top: 10px;
+  background-color: #2C3E50;
+}
+
+.after-before::after {
+  content: "";
+  position: absolute;
+  right: 36%;
+  height: 5px;
+  width: 12%;
+  top: 10px;
+  background-color: #2C3E50;
+}
